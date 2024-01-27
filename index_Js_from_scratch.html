@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Progetto Finale SheTech</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Professional Bio Maker 📝</h1>
+            <form id="formPersonale">
+                <input type="text" id="nomeCognome" placeholder="Nome e Cognome" required>
+                <input type="text" id="ruolo" placeholder="Ruolo" required>
+                <textarea id="competenze" placeholder="Competenze Tecniche" required></textarea>
+                <textarea id="trasversali" placeholder="Competenze Trasversali" required></textarea>
+                <textarea id="shortBio" placeholder="Breve Biografia" required></textarea>
+                <textarea id="esperienze" placeholder="Esperienze Lavorative" required></textarea>
+                <textarea id="formazione" placeholder="Formazione" required></textarea>
+                <input type="text" id="contatti" placeholder="Contatti" required>
+                <button type="submit" id="submit" onclick="generateBio();">Generate Bio</button>
+            </form>
+            <div id="tabellaBio"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+  </html>
